@@ -85,6 +85,7 @@ class HomeVC: UIViewController {
         
         // Screenshot Overlay
         self.screenshotOverlay.backgroundColor = .black
+        self.screenshotOverlay.isHidden = true
         
         // Screenshot Sub Overlay
         self.screenshotSubOverlay.backgroundColor = .clear
@@ -102,5 +103,9 @@ class HomeVC: UIViewController {
         self.screenshotOverlayLabel.lineBreakMode = .byWordWrapping
         self.screenshotOverlayLabel.textAlignment = .center
         self.screenshotOverlayLabel.text = "Due to privacy reason screenshot is blocked"
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            self.screenshotOverlay.isHidden = false
+        }
     }
 }
