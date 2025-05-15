@@ -45,10 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12372C632D813BF9009D14B5 /* Home */ = {
+		122823DF2DD5FE94001D40F2 /* Screen Protector Manager */ = {
+			isa = PBXGroup;
+			children = (
+				125D80732D8017CF00FBCF57 /* ScreenProtectorManager.swift */,
+			);
+			path = "Screen Protector Manager";
+			sourceTree = "<group>";
+		};
+		122823E02DD60471001D40F2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				12372C642D813C0C009D14B5 /* HomeVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		12372C632D813BF9009D14B5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				122823E02DD60471001D40F2 /* Controller */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -130,7 +146,7 @@
 			children = (
 				12372C6A2D8141C4009D14B5 /* Common */,
 				125D80752D80180B00FBCF57 /* Constants */,
-				125D80732D8017CF00FBCF57 /* ScreenProtectorManager.swift */,
+				122823DF2DD5FE94001D40F2 /* Screen Protector Manager */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -254,11 +270,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7X37T48VFM;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7X37T48VFM;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScreenProtectorDemo/Info.plist;
@@ -274,10 +290,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.digirealtytech.ScreenProtectorDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScreenProtectorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = wildcard_development;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wildcard_development;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -293,11 +309,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7X37T48VFM;
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7X37T48VFM;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScreenProtectorDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -312,10 +329,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.digirealtytech.ScreenProtectorDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ScreenProtectorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = wildcard_development;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wildcard_development;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
