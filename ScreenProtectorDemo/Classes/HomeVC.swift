@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeVC: UIViewController {
+class HomeVC: BaseVC {
     
     // MARK: - IBOutlets
     @IBOutlet weak var sensitiveContainer: UIView!
